@@ -1,0 +1,7 @@
+# simpleCalculator
+
+
+- HTML
+- CSS
+- JavaScript 
+
