@@ -6,22 +6,36 @@
   </head>
 
   <body>
-    <h1>Tasks</h1>
-
-    <form id="js-form">
-      <input type="text" placeholder="Add task" />
-    </form>
-
-    <div>
-      <h3>Pending</h3>
-      <ul id="js-pending"></ul>
+    <div id="container">
+      <h1>Calculator</h1>
+      <div class="zeroRow">
+        <input class="inputNum" type="text" />
+        <input type="button" class="reset" value="C" />
+      </div>
+      <div class="firstRow">
+        <input type="button" class="seven" value="7" />
+        <input type="button" class="eight" value="8" />
+        <input type="button" class="nine" value="9" />
+        <input type="button" class="plus" value="+" />
+      </div>
+      <div class="secondRow">
+        <input type="button" class="four" value="4" />
+        <input type="button" class="five" value="5" />
+        <input type="button" class="six" value="6" />
+        <input type="button" class="minus" value="-" />
+      </div>
+      <div class="thirdRow">
+        <input type="button" class="one" value="1" />
+        <input type="button" class="two" value="2" />
+        <input type="button" class="three" value="3" />
+        <input type="button" class="multiply" value="*" />
+      </div>
+      <div class="fourthRow">
+        <input type="button" class="zero" value="0" />
+        <input type="button" class="equal" value="=" />
+        <input type="button" class="divide" value="/" />
+      </div>
     </div>
-
-    <div>
-      <h3>Finished</h3>
-      <ul id="js-finished"></ul>
-    </div>
-
-    <script src="calc.js"></script>
+    <script src="src/calc.js"></script>
   </body>
 </html>
